@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screenshots createPet screen snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(196, 196, 196, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#CFD7DE",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "height": "30%",
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": "40%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#66727C",
+                "padding": 5,
+              },
+              undefined,
+            ]
+          }
+        >
+          + Upload Photo
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "flex": 3,
+          "paddingTop": 28,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "width": "90%",
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "fontSize": 17,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Pet Name *
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          blurOnSubmit={true}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="🐶 Your pet name"
+          rejectResponderTermination={true}
+          returnKeyType="done"
+          style={
+            Array [
+              Object {
+                "borderColor": "#C4C4C4",
+                "borderRadius": 6,
+                "borderWidth": 2,
+                "height": 50,
+                "marginTop": 10,
+                "padding": 10,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+              "width": "90%",
+            },
+            Object {
+              "marginTop": 20,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "fontSize": 17,
+              "fontWeight": "700",
+            }
+          }
+        >
+          Pet Description *
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          autoCorrect={false}
+          blurOnSubmit={true}
+          multiline={true}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          placeholder="🐶 Your pet description"
+          rejectResponderTermination={true}
+          returnKeyType="done"
+          style={
+            Array [
+              Object {
+                "borderColor": "#C4C4C4",
+                "borderRadius": 6,
+                "borderWidth": 2,
+                "height": 50,
+                "marginTop": 10,
+                "padding": 10,
+                "width": "100%",
+              },
+              Object {
+                "height": 125,
+                "textAlignVertical": "top",
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#CFD7DE",
+          "borderRadius": 20,
+          "borderWidth": 2,
+          "justifyContent": "center",
+          "marginBottom": 20,
+          "minHeight": "7.5%",
+          "opacity": 1,
+          "width": "90%",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#CFD7DE",
+              "padding": 5,
+            },
+            Object {
+              "fontSize": 18,
+              "fontWeight": "700",
+            },
+          ]
+        }
+      >
+        + Add Pet
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`screenshots home screen snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "paddingHorizontal": 55,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontWeight": "500",
+            "textAlign": "center",
+          }
+        }
+      >
+        Looks like you haven’t added any pets yet. You can add your first pet profile from the button below.
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#CFD7DE",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "height": 44,
+            "justifyContent": "center",
+            "marginTop": 30,
+            "opacity": 1,
+            "width": 181,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#66727C",
+                "padding": 5,
+              },
+              undefined,
+            ]
+          }
+        >
+          + Add Your First Pet
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
